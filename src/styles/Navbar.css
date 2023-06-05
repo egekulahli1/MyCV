@@ -1,0 +1,43 @@
+.navbar-title {
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color:
+#6B7280;
+}
+
+.navbar-button{
+    box-sizing: border-box;
+    border: 1px solid #3730A3;
+    border-radius: 6px;
+    padding: 0.8rem 2.2rem;
+}
+
+.navbar-button:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.navbar-button-title{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #3730A3;
+line-height: 28px;
+}
+
+.Navbar {
+    
+    padding-right: 10rem;
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:60px;
+    align-items: center;
+
+}
