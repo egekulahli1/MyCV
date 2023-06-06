@@ -2,25 +2,25 @@
 
 @media (max-width: 480px) {
     .Header{
-        padding-left: 0.5rem;
-        padding-right:0.5rem;
-        margin-top: 0.5rem;
+        padding-left: 1rem;
+        padding-right:1rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        max-width: 480px;
         width: 100%;
-        min-width: 100%;
+        margin-bottom: 1rem;
     }
     .header-content{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        width: 60%; 
-        gap: 0.5rem;
+        width: 65%; 
+        gap: 1.2rem;
     }
     #buttonheader{
-        min-width: 2.5rem;
+        min-width: 5rem;
     }
     
     #buttonheader:hover{
@@ -30,21 +30,23 @@
     }
 
     .header-image{
-        width: 25%;
+        
+        width: 30%;
     }
 
     .header-image img{
+        
         border-radius: 0.75rem;
-        width: 65%;
+        width: 80%;
         height: auto;
     }
 
     .header-name {
         font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 8px;
-    line-height: 9px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
     color: #4338CA;
     }
 
@@ -67,8 +69,8 @@
         font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 6px;
-    line-height: 9px;
+    font-size: 10px;
+    line-height: 15px;
     color: #6B7280;
     padding-right: 1rem;
     }
@@ -83,7 +85,7 @@
         font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 6px;
+    font-size: 10px;
     line-height: 8px;
     color: #FFFFFF;
     }
@@ -91,7 +93,7 @@
     .header-hire-me{
         background: #3730A3;
     border-radius: 1px;
-    padding: 2px 8px 4px 8px;
+    padding: 6px 16px 6px 16px;
     border: 0.25px solid #3730A3;
     }
 
@@ -99,7 +101,7 @@
         font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 6px;
+    font-size: 10px;
     line-height: 8px;
     color: #3730A3;
     }
@@ -107,7 +109,7 @@
     .header-github{
         background: #FFFFFF;
     border-radius: 1px;
-    padding: 2px 8px 4px 8px;
+    padding: 6px 16px 6px 16px;
     border: 0.0125rem solid #3730A3;
     }
     
@@ -115,7 +117,7 @@
         font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 6px;
+    font-size: 10px;
     line-height: 8px;
     color: #3730A3;
     }
@@ -123,7 +125,7 @@
     .header-linkedin{
     
     border-radius: 1px;
-    padding: 2px 8px 4px 8px;
+    padding: 6px 16px 6px 16px;
     background: #FFFFFF;
     border: 0.25px solid #3730A3;
     }
