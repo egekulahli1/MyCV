@@ -49,3 +49,9 @@ font-size: 12px;
 line-height: 16px;
 color: #6B7280;
 }
+
+
+.pink-line{
+    margin-top:2rem;
+    border: 1px solid #BAB2E7;
+}

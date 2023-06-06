@@ -29,6 +29,9 @@ function Skills() {
           </span>
         </div>
       </div>
+      <div className = 'pink-line'>
+
+      </div>
     </div>
   );
 }
