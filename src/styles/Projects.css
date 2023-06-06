@@ -1,0 +1,88 @@
+.pink-line {
+  margin-top: 2rem;
+  border: 1px solid #bab2e7;
+}
+
+.projects {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.projects-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.projects-content-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+
+.projects-content-card {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.projects-content-card-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 28px;
+  color: #4338ca;
+}
+
+.projects-content-card-description {
+  font-family: "Inter", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 125%;
+  color: #6b7280;
+}
+
+.projects-content-card-skills{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.projects-content-card-skill{
+    background: #FFFFFF;
+border: 1px solid #3730A3;
+border-radius: 4px;
+padding: 6px 18px 6px;
+color: #3730A3;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-size: 14px;
+line-height: 100%;
+font-weight: 600;
+}
+
+.projects-content-card-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects-content-card-links span{
+    text-decoration: none;
+    color: #3730A3;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+
+}

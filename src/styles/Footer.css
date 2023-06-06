@@ -1,0 +1,77 @@
+.footer {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.footer-title {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  padding-right: 40rem;
+}
+
+.footer-title span {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 125%;
+  color: #1f2937;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-contact-mail {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+
+  color: #af0c48;
+}
+
+.footer-social-media-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#linkedin {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #0077b5;
+  text-decoration: none;
+}
+#github {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #00ab6b;
+  text-decoration: none;
+}
+#personalblog {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #0a0a14;
+}
