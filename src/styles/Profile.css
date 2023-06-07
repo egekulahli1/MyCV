@@ -52,7 +52,7 @@
   }
 
   .profile-card {
-    width: 50%;
+    width: 60%;
   }
   .profile-card-title {
     font-family: "Inter", sans-serif;
@@ -61,9 +61,10 @@
     font-size: 12px;
     line-height: 10px;
     color: #4338ca;
+    
   }
   .profile-card-content {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -77,7 +78,7 @@
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 8px;
+    font-size: 7px;
     line-height: 150%;
     letter-spacing: 0.005em;
     color: #000000;
@@ -86,7 +87,7 @@
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 8px;
+    font-size: 7px;
     line-height: 150%;
     letter-spacing: 0.005em;
     color: #000000;
