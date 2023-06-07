@@ -1,3 +1,49 @@
+@media (max-width: 480px) {
+    .navbar-title {
+        font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    color:
+    #6B7280;
+    }
+    .navbar-button{
+        box-sizing: border-box;
+        border: 0.25px solid #3730A3;
+        border-radius: 6px;
+        padding: 0.6rem 1.5rem;
+    }
+    .navbar-button:hover{
+        transform: scale(1.05);
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+    .navbar-button-title{
+        font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #3730A3;
+    line-height: 10px;
+    }
+
+    .Navbar {
+    
+        padding-right: 1rem;
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap:15px;
+        align-items: center;
+    
+    }
+}
+
+
+@media (min-width: 1440px) {
 .navbar-title {
     font-family: 'Inter', sans-serif;
 font-style: normal;
@@ -39,5 +85,7 @@ line-height: 28px;
     justify-content: flex-end;
     gap:60px;
     align-items: center;
+
+}
 
 }
