@@ -2,7 +2,10 @@ import '../styles/Header.css';
 import ppege from '../images/pp/pp-ege.jpeg'; 
 function Header() {
   return (
+    <div>
+    <div className='pink-line'></div>
     <div className="Header">
+    
       <div className="header-content">
         <span className='header-name'>Ege Külahlı</span>
         <div className='header-head-section'>
@@ -22,6 +25,9 @@ function Header() {
       <div className="header-image">
           <img src={ppege} alt="Ege Külahlı" />
       </div>
+      
+    </div>
+    <div className="pink-line"></div>
     </div>
   );
 }

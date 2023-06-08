@@ -2,6 +2,7 @@ import "../styles/Skills.css";
 
 function Skills() {
   return (
+    <div>
     <div className="Skills">
       <div className="skills-title-container">
         <span className="skills-title">Skills</span>
@@ -29,9 +30,8 @@ function Skills() {
           </span>
         </div>
       </div>
-      <div className = 'pink-line'>
-
-      </div>
+    </div>
+    <div className="pink-line"></div>
     </div>
   );
 }

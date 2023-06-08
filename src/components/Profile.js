@@ -1,6 +1,8 @@
 import "../styles/Profile.css";
 function Profile() {
   return (
+    <div>
+     
     <div className="profile">
       <div className="profile-title">
         <span className="profile-title-text">Profile</span>
@@ -44,8 +46,10 @@ function Profile() {
           </div>
         </div>
       </div>
-      <div className="pink-line"></div>
     </div>
+    <div className="pink-line"></div>
+    </div>
+
   );
 }
 

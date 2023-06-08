@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 function Projects() {
     return (
+        <div>
       <div className="projects">
           <div>
               <span className = 'projects-title'>Projects</span>
@@ -72,7 +73,9 @@ function Projects() {
                   </div>
               </div>
           </div>
-          <div className="pink-line">
+          
+      </div>
+      <div className="pink-line">
 
           </div>
       </div>

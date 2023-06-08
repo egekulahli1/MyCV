@@ -1,11 +1,12 @@
 @media (max-width:480px){
   .pink-line {
-    margin-top: 2rem;
+    margin-top: 1rem;
     border: 1px solid #bab2e7;
+    margin-bottom: 0.5rem;
   }
   .projects {
-    padding-left: 1rem;
-    padding-right: 11rem;
+    width: 100%;
+    
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
@@ -16,16 +17,17 @@
     font-size: 16px;
     line-height: 16px;
     color: #000000;
+    padding-left: 1rem;
   }
   .projects-content-section {
     display: flex;
     flex-direction: row;
     margin-top: 0.75rem;
     justify-content: space-between;
-    gap: 1.5rem;
+    
   }
   .projects-content-card {
-    width: 45%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
@@ -79,6 +81,179 @@ font-weight: 600;
   letter-spacing: 0.025em;
 
 }
+}
+@media (max-width:768px){
+  .pink-line {
+    margin-top: 1rem;
+    border: 1px solid #bab2e7;
+    margin-bottom: 0.5rem;
+  }
+  .projects {
+    width: 100%;
+    
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .projects-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 1.2rem;
+  }
+  .projects-content-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-between;
+    
+  }
+  .projects-content-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .projects-content-card-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #4338ca;
+  }
+  .projects-content-card-description {
+    font-family: "Inter", sans-serif;
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 125%;
+    color: #6b7280;
+  }
+  .projects-content-card-skills{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.projects-content-card-skill{
+  background: #FFFFFF;
+border: 0.25px solid #3730A3;
+border-radius: 4px;
+padding: 5px 8px 5px;
+color: #3730A3;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-size: 10px;
+font-weight: 600;
+}
+.projects-content-card-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projects-content-card-links span{
+  text-decoration: none;
+  color: #3730A3;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.05em;
+}
+}
+@media(min-width:769px) {
+  .pink-line {
+    margin-top: 1.75rem;
+    border: 1px solid #bab2e7;
+  }
+  
+  .projects {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .projects-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+  }
+  
+  .projects-content-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+  }
+  
+  .projects-content-card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .projects-content-card-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    color: #4338ca;
+  }
+  
+  .projects-content-card-description {
+    font-family: "Inter", sans-serif;
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 125%;
+    color: #6b7280;
+  }
+  
+  .projects-content-card-skills{
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+  }
+  
+  .projects-content-card-skill{
+      background: #FFFFFF;
+  border: 1px solid #3730A3;
+  border-radius: 4px;
+  padding: 6px 18px 6px;
+  color: #3730A3;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 600;
+  }
+  
+  .projects-content-card-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  .projects-content-card-links span{
+      text-decoration: none;
+      color: #3730A3;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 16px;
+  
+  }
 }
 
 @media (min-width: 1440px) {
