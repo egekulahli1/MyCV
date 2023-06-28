@@ -1,4 +1,4 @@
-@media (max-width:480px){
+@media (min-width: 320px ) and (max-width: 480px){
   .pink-line {
     margin-top: 1rem;
     border: 1px solid #bab2e7;
@@ -82,7 +82,7 @@ font-weight: 600;
 
 }
 }
-@media (max-width:768px){
+@media (min-width: 481px) and (max-width:768px){
   .pink-line {
     margin-top: 1rem;
     border: 1px solid #bab2e7;
@@ -165,7 +165,7 @@ font-weight: 600;
   letter-spacing: 0.05em;
 }
 }
-@media(min-width:769px) {
+@media(min-width:769px) and (max-width:1439px) {
   .pink-line {
     margin-top: 1.75rem;
     border: 1px solid #bab2e7;

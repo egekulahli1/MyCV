@@ -1,4 +1,4 @@
-@media (max-width:480px) {
+@media (min-width: 320px ) and (max-width: 480px) {
   .profile {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -98,7 +98,7 @@
   }
   
 }
-@media (max-width:768px){
+@media (min-width: 481px) and (max-width:768px){
   .profile {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -199,7 +199,7 @@
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width:1439px){
   .profile {
     padding-left: 5rem;
     padding-right: 5rem;

@@ -1,5 +1,5 @@
 
-@media (max-width: 480px) {
+@media (min-width: 320px ) and (max-width: 480px) {
     .pink-line {
         margin-top: 0.5rem;
         border: 1px solid #bab2e7;
@@ -64,7 +64,7 @@
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 20px;
         color: #1F2937;  
     }
@@ -135,7 +135,7 @@
     }
 
 }
-@media (max-width: 768px) {
+@media (min-widthh:481px) and (max-width: 768px) {
     .pink-line {
         margin-top: 0.75rem;
         border: 1px solid #bab2e7;
@@ -413,6 +413,16 @@
 
 
 @media (min-width: 1440px) {
+
+    #light {
+        background-color: #F5F5F5;;
+        color : #1F2937;
+    }
+
+    #dark {
+        background-color: #1F2937;
+        color : #F5F5F5;
+    }
 .Header{
     margin-top: 1rem;
     margin-bottom: 2rem;

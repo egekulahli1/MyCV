@@ -6,9 +6,20 @@ import Profile from "./components/Profile";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import './styles/App.css';
+
+import { createContext, useState} from "react";
+
+export const ThemeContext = createContext(null);
+
 function App() {
+  const [theme, setTheme] = useState('light')
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === 'light' ? 'dark' : 'light'))
+  }
+
   return (
-    <div className="app-container">
+    <ThemeContext.Provider value= {{theme, toggleTheme}}>
+    <div className="app-container" id={theme}>
        <Changer />
        <Navbar />
         <Header />
@@ -17,6 +28,7 @@ function App() {
         <Projects />
         <Footer />
     </div>
+    </ThemeContext.Provider>
   );
 }
 
